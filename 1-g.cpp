@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n;
+int n; 
 string s, ori_s, pre, suf;
 int main() {
     cin >> n;
@@ -19,3 +19,5 @@ int main() {
     }
     return 0;
 }
+
+//https://www.acmicpc.net/problem/9996
