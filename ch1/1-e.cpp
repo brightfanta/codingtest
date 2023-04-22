@@ -14,4 +14,4 @@ int main() {
     else cout << "PREDAJA" << "\n";
 }
 
-https://www.acmicpc.net/problem/1159
+//https:www.acmicpc.net/problem/1159
