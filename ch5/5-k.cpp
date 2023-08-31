@@ -52,7 +52,7 @@ vector<pair<int, int>> chung(int sy, int sx, int dy[], int dx[]){
             ny = y + dy[cnt];
             nx = x + dx[cnt];
         }
-        if(ny == sy || nx == sx) break;
+        if(ny == sy && nx == sx) break;
         y = ny; x = nx;
         v.push_back({ny, nx});
     }
